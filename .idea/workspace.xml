@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41818672-3c76-4d54-83b9-89c9f578ecca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/config.xml" afterPath="$PROJECT_DIR$/www/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CordovaSandbox.iws" />
@@ -280,7 +277,11 @@
       <created>1381523707747</created>
       <updated>1381523707747</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commented out networking code that didn't work.">
+      <created>1381525079279</created>
+      <updated>1381525079279</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -315,7 +316,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Updated config file with correct name, description, and contact info." />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated config file with correct name, description, and contact info." />
+    <MESSAGE value="Commented out networking code that didn't work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commented out networking code that didn't work." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
