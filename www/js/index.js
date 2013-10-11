@@ -37,6 +37,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
 
+/*
         var xhr = new XMLHttpRequest();
         xhr.open('GET', 'https://api.github.com/legacy/repos/search/javascript', true);
 
@@ -54,6 +55,7 @@ var app = {
         };
 
         xhr.send();
+*/
     }
 
 };
