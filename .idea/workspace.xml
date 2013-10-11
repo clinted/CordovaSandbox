@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41818672-3c76-4d54-83b9-89c9f578ecca" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/index.html" afterPath="$PROJECT_DIR$/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/index.js" afterPath="$PROJECT_DIR$/www/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="41818672-3c76-4d54-83b9-89c9f578ecca" name="Default" comment="" />
     <ignored path="CordovaSandbox.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="8" selection-start="1029" selection-end="1029" vertical-scroll-proportion="-14.708333" vertical-offset="7" max-vertical-offset="630">
+            <state line="24" column="8" selection-start="1029" selection-end="1029" vertical-scroll-proportion="1.0443788" vertical-offset="7" max-vertical-offset="630">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/js/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="29" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.62464184" vertical-offset="367" max-vertical-offset="975">
+            <state line="39" column="29" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="975">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -65,9 +61,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/www/config.xml" />
         <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/js/index.js" />
+        <option value="$PROJECT_DIR$/www/config.xml" />
       </list>
     </option>
   </component>
@@ -266,7 +262,11 @@
       <created>1381522065062</created>
       <updated>1381522065062</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated config file with correct name, description, and contact info.">
+      <created>1381523707747</created>
+      <updated>1381523707747</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -316,24 +316,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="416" selection-end="416" vertical-scroll-proportion="0.49492386" vertical-offset="0" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="1029" selection-end="1029" vertical-scroll-proportion="-14.708333" vertical-offset="7" max-vertical-offset="630">
+        <state line="6" column="26" selection-start="294" selection-end="294" vertical-scroll-proportion="0.19484241" vertical-offset="22" max-vertical-offset="1560">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="29" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.62464184" vertical-offset="367" max-vertical-offset="975">
+        <state line="39" column="29" selection-start="1436" selection-end="1436" vertical-scroll-proportion="0.0" vertical-offset="367" max-vertical-offset="975">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="8" selection-start="1029" selection-end="1029" vertical-scroll-proportion="1.0443788" vertical-offset="7" max-vertical-offset="630">
+          <folding />
         </state>
       </provider>
     </entry>
