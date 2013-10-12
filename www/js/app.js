@@ -42,10 +42,9 @@ var app = {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', 'https://api.github.com/legacy/repos/search/javascript', true);
 
-        content.innerHTML = content.innerHTML + "Web service called.";
-
         // Response handlers.
         xhr.onload = function () {
+            document.getElementById("allRepos").innerHTML = "xhr.onLoad called";
             var repos = JSON.parse(xhr.response), i, reposHTML = "";
             for (i = 0; i < repos.repositories.length; i++) {
                 reposHTML += "<p><a href='https://github.com/" + repos.repositories[i].username + "/" + repos.repositories[i].name + "'>" + repos.repositories[i].name + "</a><br>" + repos.repositories[i].description + "</p>";
@@ -54,10 +53,12 @@ var app = {
         };
 
         xhr.onerror = function () {
+            document.getElementById("allRepos").innerHTML = "xhr.onerror called";
             alert('error making the request.');
         };
 
         xhr.send();
+        content.innerHTML = content.innerHTML + "Web service called.";
     }
 
 };
