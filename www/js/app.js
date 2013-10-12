@@ -44,12 +44,12 @@ var app = {
 
         // Response handlers.
         xhr.onload = function () {
-            document.getElementById("allRepos").innerHTML = "xhr.onLoad called";
-            var repos = JSON.parse(xhr.response), i, reposHTML = "";
-            for (i = 0; i < repos.repositories.length; i++) {
-                reposHTML += "<p><a href='https://github.com/" + repos.repositories[i].username + "/" + repos.repositories[i].name + "'>" + repos.repositories[i].name + "</a><br>" + repos.repositories[i].description + "</p>";
-            }
-            document.getElementById("allRepos").innerHTML = reposHTML;
+            document.getElementById("allRepos").innerHTML = xhr.response.toString();
+//            var repos = JSON.parse(xhr.response), i, reposHTML = "";
+//           for (i = 0; i < repos.repositories.length; i++) {
+//                reposHTML += "<p><a href='https://github.com/" + repos.repositories[i].username + "/" + repos.repositories[i].name + "'>" + repos.repositories[i].name + "</a><br>" + repos.repositories[i].description + "</p>";
+//            }
+//            document.getElementById("allRepos").innerHTML = reposHTML;
         };
 
         xhr.onerror = function () {
